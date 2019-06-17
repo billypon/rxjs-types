@@ -1,0 +1,16 @@
+{
+  "name": "@billypon/rxjs-types",
+  "description": "some types for rxjs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p .",
+    "postbuild": "bin/post-build",
+    "lint": "tslint -p ."
+  },
+  "devDependencies": {
+    "rxjs": "^6.5.2",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
